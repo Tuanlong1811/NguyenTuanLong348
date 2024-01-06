@@ -10,5 +10,7 @@ namespace NetMVC.Data
         {
         }
         public DbSet<Person> Person { get; set; }
+        public DbSet<NetMVC.Models.Student> Student { get; set; } = default!;
+        
     }
 }
